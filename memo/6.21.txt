@@ -1,0 +1,36 @@
+red, blue = blue, red    # red, blue 값이 서로 변경됨-파이썬에서만 자바스크립트ㄴㄴ
+
+리스트[list] = 배열[array]
+
+for i in 리스트:
+	print(i)       = 리스트 아래로 출력
+	print(i, end=' ') = 리스트 우측으로 출력
+
+list의 주요함수
+append() = 맨뒤에 추가 list.append(4) : 4 삽입
+insert() = 해당 위치에 삽입 list.insert(1,2) : 1번 위치에 2삽입
+pop() = 해당 위치에 값 제거 list.pop(1) : 1번 위치 제거 // 마지막 값은 살려줌
+remove() = 요소 직접 삭제 list.remove(string) : 직접삭제
+clear() = 리스트 전부 삭제 list.clear : 전부 삭제
+
+extend() = list.extend() : 리스트간 더하기
+index() = list.index() : 리스트의 변수 위치 확인
+count() = list.count() : 리스트 안에 변수 갯수 확인
+sort() = list.sort() : 오름 차순으로 정렬
+reverse() = list.reverse() : 내림 차순으로 정렬
+
+---
+
+문자열 함수(메서드)
+
+find() = 문자열이 존재하는 위치 파악 없으면 -1 반환
+lstrip() = 왼쪽 공백 제거
+rstrip() = 우측 공백 제거
+strip()
+isnumeric()
+@ split() = 특수문자 -> 리스트 // str에서만 사용가능
+replace() = 문자열 수정
+@ format() = {} 사용
+
+
+
